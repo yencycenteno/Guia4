@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Guia4</string>
+    <string name="nombre">Yency Marbel Centeno Campos</string>
+    <string name="codigo">CC16-I04-001</string>
+    <string name="correlativo">Correlativo 26</string>
+    <string name="tituloDatos">Mis datos</string>
+    <string name="ValidarNombre">Escriba el nombre</string>
+    <string name="ValidarOrganizacion">Escriba la organizacion</string>
+    <string name="ValidarTelefono">Escriba telefono</string>
+    <string name="Tamanio">Tamaño 8 caracteres</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/edtNombre"
+        android:inputType="textPersonName"
+        android:hint="Nombre"
+        app:met_floatingLabel="highlight"
+        android:layout_height="wrap_content" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/edtTel"
+        android:inputType="phone"
+        android:hint="Telefono"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="8"
+        android:layout_height="wrap_content" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/edtOrg"
+        android:inputType="textPersonName"
+        android:hint="Organizacion"
+        app:met_floatingLabel="highlight"
+        app:met_singleLineEllipsis="true"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="OnClickGuardar"
+        android:layout_width="match_parent"
+        android:background="#B42196F3"
+        android:textStyle="bold"
+        android:text="Guardar"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:textAllCaps="false"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="OnClickDatos"
+        android:layout_width="match_parent"
+        android:text="Mis datos"
+        android:layout_marginTop="40dp"
+        android:background="#B42196F3"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
